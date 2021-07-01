@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>15 Puzzle with numbers</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>15 Puzzle</header>
+    <div class="right">
+        <div class="time">
+            00:00
+        </div>
+        <div class="leaderBoard"></div>
+        <div class="win"></div>
+    </div>
+    <button class="choose" id="3">3</button>
+    <button class="choose" id="4">4</button>
+    <button class="choose" id="5">5</button>
+    
+
+	<div id="puzzle">
+        <div class="row">
+            <div class="container">
+                <div class="box" id="1">1</div>
+            </div>
+            <div class="container">
+                <div class="box" id="2">2</div>
+            </div>
+            <div class="container">
+                <div class="box" id="3">3</div>
+            </div>
+            <div class="container">
+                <div class="box" id="4">4</div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="container">
+                <div class="box" id="5">5</div>
+            </div>
+            <div class="container">
+                <div class="box" id="6">6</div>
+            </div>
+            <div class="container">
+                <div class="box" id="7">7</div>
+            </div>
+            <div class="container">
+                <div class="box" id="8">8</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="container">
+                <div class="box" id="9">9</div>
+            </div>
+            <div class="container">
+                <div class="box" id="10">10</div>
+            </div>
+            <div class="container">
+                <div class="box" id="11">11</div>
+            </div>
+            <div class="container">
+                <div class="box" id="12">12</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="container">
+                <div class="box" id="13">13</div>
+            </div>
+            <div class="container">
+                <div class="box" id="14">14</div>
+            </div>
+            <div class="container">
+                <div class="box" id="15">15</div>
+            </div>
+            <div class="container">
+                <div class="box empty" id="16"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="controls">
+        <button id="solve">Solve</button>		
+        <button id="scramble">Scramble</button>
+        <button id="begin">Start</button>
+        <button id="pause">Pause</button>
+        <button id="resume">Resume</button>
+    </div>
+
+	<script src="app.js"></script>
+</body>
+</html>
